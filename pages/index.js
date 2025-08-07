@@ -8,6 +8,8 @@ import Faq from "@layouts/Faq";
 import Footer from "@layouts/partials/Footer";
 import Guidelines from "@layouts/Guidelines";
 import Team from "@layouts/Team";
+import { committeedata } from "data/util";
+
 
 const Home = () => {
   return (
@@ -137,6 +139,27 @@ const Home = () => {
       <div data-aos="fade-left">
         <Team />
       </div>
+
+          <section id="committee" className="section bg-white">
+      <div className="container">
+        <h2 className="text-3xl font-bold mb-8" data-aos="fade-up">
+          Organizing Committee
+        </h2>
+
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
+          {committeedata.Committee.map((member, index) => (
+            <div
+              key={`committee-${index}`}
+              className="bg-theme-light rounded-lg p-6 shadow-md"
+            >
+              <h3 className="text-xl font-semibold">{member.name}</h3>
+              <p className="mt-2 text-gray-700">{member.title}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
 
       {/* Contact */}
       <div data-aos="fade-up">

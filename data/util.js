@@ -174,7 +174,30 @@ export const teamData = {
   "Co-Chair": [
     { name: "Co-chair-1", title: "Co-Chair – Research", image: "/images/chair_1.webp" },
     { name: "Co-chair-2", title: "Co-Chair – Logistics", image: "/images/chair_1.webp" },
-  ],
+  ], 
 };
+
+export const committeedata = {
+  Committee: [
+    { name: "Xuan Song", title: "School of Artificial Intelligence, Jilin University, China" },
+    { name: "Abhishek Srivastava", title: "IIT Indore" },
+    { name: "André Skupin", title: "San Diego State University, USA" },
+    { name: "Debajyoti Mukhopadhyay", title: "WIDiCoReL Research Lab, India" },
+    { name: "Hangli Ge", title: "The University of Tokyo, Japan" },
+    { name: "Hemant Purohit", title: "George Mason University, USA" },
+    { name: "Henry Hexmoor", title: "Southern Illinois University, USA" },
+    { name: "Hoang Long Nguyen", title: "PDF Solutions, Canada" },
+    { name: "Kaustubh Patil", title: "Forschungszentrum Jülich, Germany" },
+    { name: "Pawan Lingras", title: "Saint Mary's University, Halifax, Canada" },
+    { name: "Rishikesh Patankar", title: "National Skill Development Corporation, India" },
+    { name: "Sachin Gaur", title: "Ukumi.ai, Norway" },
+    { name: "Song Guo", title: "Hong Kong University of Science and Technology, Hong Kong" },
+    { name: "Sören Auer", title: "Leibniz Universität Hannover, Germany" },
+    { name: "Subhasis Thakur", title: "University of Galway, Ireland" },
+    { name: "Sule Yildirim Yayilgan", title: "NTNU, Norway" },
+    { name: "Vadim Ermolayev", title: "Ukrainian Catholic University, Ukraine" }
+  ]
+};
+
 
 
