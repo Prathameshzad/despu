@@ -4,7 +4,7 @@ function Faq() {
   return (
     <section className="section" id="faq">
       <div className="container">
-        <h1 className="capitalize">Topics of Interest</h1>
+        <h1 className="capitalize">Sub-themes</h1>
         <div className="flex flex-wrap -mx-4" data-aos="fade-down">
           {faqData.map((faq, index) => (
             <div key={index} className="w-full md:w-1/2 px-4 mb-8">

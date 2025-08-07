@@ -35,28 +35,35 @@ export const mainMenu = [
 export const services = [
   {
     id: 1,
-    title: "Paper Submission Deadline",
-    date: "TBH",
+    title: "Full Paper Submission Deadline",
+    date: "30 September 2025",
     icon: "⏳",
   },
   {
     id: 2,
     title: "Notification of Acceptance:",
-    date: "TBH",
+    date: "15 December 2025",
     icon: "✅ ",
   },
   {
     id: 3,
     title: "Camera-Ready Submission:",
-    date: "TBH",
+    date: "15 January 2026",
     icon: "📷 ",
   },
   {
     id: 4,
+    title: "Registration",
+    date: "1 January 2026",
+    icon: "💻",
+  },
+  {
+    id: 5,
     title: "Conference Dates",
     date: "6-7 March 2026",
     icon: "👥",
   },
+  
   
 ];
 
@@ -161,7 +168,7 @@ export const faqData = [
 
 export const teamData = {
   Chair: [
-    { name: "chair-1", title: "General Chair", image: "/images/chair_1.webp" },
+    { name: "Xuan Song", title: "School of Artificial Intelligence, Jilin University, China", image: "/images/chair_1.webp" },
     { name: "char-2", title: "Technical Chair", image: "/images/chair_1.webp" },
   ],
   "Co-Chair": [
