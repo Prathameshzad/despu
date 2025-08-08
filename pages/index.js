@@ -142,11 +142,11 @@ const Home = () => {
 
           <section id="committee" className="section bg-white">
       <div className="container">
-        <h2 className="text-3xl font-bold mb-8" data-aos="fade-up">
-          Organizing Committee
+        <h2 className="text-3xl font-bold capitalize mb-8" data-aos="fade-up">
+          committee members
         </h2>
 
-        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3" data-aos="fade-up">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4" data-aos="fade-up">
           {committeedata.Committee.map((member, index) => (
             <div
               key={`committee-${index}`}

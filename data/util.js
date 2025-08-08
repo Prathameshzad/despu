@@ -36,31 +36,32 @@ export const services = [
   {
     id: 1,
     title: "Full Paper Submission Deadline",
-    date: "30 September 2025",
+    date: "30 September, 2025",
     icon: "⏳",
   },
-  {
+   {
     id: 2,
-    title: "Notification of Acceptance:",
-    date: "15 December 2025",
-    icon: "✅ ",
-  },
-  {
-    id: 3,
-    title: "Camera-Ready Submission:",
-    date: "15 January 2026",
-    icon: "📷 ",
-  },
-  {
-    id: 4,
-    title: "Registration",
-    date: "1 January 2026",
+    title: "Registration Start Date",
+    date: "1 October, 2025",
     icon: "💻",
   },
   {
+    id: 3,
+    title: "Notification of Acceptance:",
+    date: "15 December, 2025",
+    icon: "✅ ",
+  },
+  {
+    id: 4,
+    title: "Camera-Ready Submission:",
+    date: "15 January, 2026",
+    icon: "📷 ",
+  },
+ 
+  {
     id: 5,
     title: "Conference Dates",
-    date: "6-7 March 2026",
+    date: "6-7 March, 2026",
     icon: "👥",
   },
   
@@ -76,6 +77,13 @@ export const aboutUs = [
     desc: "Conference Dates: 6-7 March 2026",
     desc1: "Venue: DESPU",
     image: "/images/banner-art.svg",
+    // buttonLink: "/contact"
+  },
+  {
+    title: "Call For Papers",
+    description: "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.",
+    desc: "Paper Submission will be through Microsoft CMT",
+    image: "/images/abc.jpg",
     // buttonLink: "/contact"
   },
   {
@@ -168,18 +176,17 @@ export const faqData = [
 
 export const teamData = {
   Chair: [
-    { name: "Xuan Song", title: "School of Artificial Intelligence, Jilin University, China", image: "/images/chair_1.webp" },
-    { name: "char-2", title: "Technical Chair", image: "/images/chair_1.webp" },
+    { name: "Xuan Song", title: "School of Artificial Intelligence, Jilin University, China"},
+    // { name: "char-2", title: "Technical Chair", image: "/images/chair_1.webp" },
   ],
-  "Co-Chair": [
-    { name: "Co-chair-1", title: "Co-Chair – Research", image: "/images/chair_1.webp" },
-    { name: "Co-chair-2", title: "Co-Chair – Logistics", image: "/images/chair_1.webp" },
-  ], 
+  // "Co-Chair": [
+  //   { name: "Co-chair-1", title: "Co-Chair – Research", image: "/images/chair_1.webp" },
+  //   { name: "Co-chair-2", title: "Co-Chair – Logistics", image: "/images/chair_1.webp" },
+  // ], 
 };
 
 export const committeedata = {
-  Committee: [
-    { name: "Xuan Song", title: "School of Artificial Intelligence, Jilin University, China" },
+  Committee: [  
     { name: "Abhishek Srivastava", title: "IIT Indore" },
     { name: "André Skupin", title: "San Diego State University, USA" },
     { name: "Debajyoti Mukhopadhyay", title: "WIDiCoReL Research Lab, India" },

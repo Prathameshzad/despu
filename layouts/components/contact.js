@@ -1,5 +1,8 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+import { Camera } from 'lucide-react';
+
+
 
 const ContactForm = () => {
     const [formData, setFormData] = useState({
@@ -77,12 +80,21 @@ const ContactForm = () => {
                         className="w-full  btn btn-primary z-0 py-3"
                         onClick={handleSubmit}
                     >
-                        
                         Send Message
                     </button>
                 </form>
+                <div className="w-full mt-3 px-4 py-3 rounded-xl border border-white/30 bg-white/30 text-white placeholder-white focus:outline-none focus:ring-2 focus:ring-indigo-300">
+                <p className="text-[20px]">For any Query Contact:</p>
+                    <p className="capitalize text-[18px] font-bold">program secretary</p>
+                    <p>Dr. Tushar Deshmukh</p>
+                    <p>+91 9822838138</p>
+
+
+                </div>
             </div>
+            
         </section>
+        
     );
 };
 
